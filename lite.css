@@ -1,0 +1,747 @@
+/*
+  @about Modulr.css
+  -----------------------------------------
+  @desc: Pure Css Padding Module
+  @author: Alan Museljic
+  @git: https://www.github/com/uloga/modulr.css
+  @source: http://www.getmodulr.com/css/padding
+  ------------------------------------------------
+  @uses: modulr/padding/*
+  @docs: true 
+\-------------------------------------------------*/
+
+/* 
+  @modifier: padding
+  @property: padding
+  @desc: adds padding of 10px
+*/
+
+.padding{
+  padding: 10px;
+}
+
+/* 
+  @modifier: padding-h
+  @property: padding
+  @desc: adds horizontal padding of 10px
+*/
+
+.padding-h{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* 
+  @modifier: padding-v
+  @property: padding
+  @desc: adds vertical padding of 10px
+*/
+
+.padding-v{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* 
+  @modifier: padding-top
+  @property: padding
+  @desc: adds top padding of 10px
+*/
+
+.padding-top{
+  padding-top: 10px;
+}
+
+/* 
+  @modifier: padding-right
+  @property: padding
+  @desc: adds right padding of 10px
+*/
+
+.padding-right{
+  padding-right: 10px;
+}
+
+/* 
+  @modifier: padding-bottom
+  @property: padding
+  @desc: adds bottom padding of 10px
+*/
+
+.padding-bottom{
+  padding-bottom: 10px;
+}
+
+/* 
+  @modifier: padding-left
+  @property: padding
+  @desc: adds left padding of 10px
+*/
+
+.padding-left{
+  padding-left: 10px;
+}
+
+
+/* 
+  ---- PADDING - GUTTER ----  
+*/
+
+/* 
+  @modifier: padding-5, gutter-5
+  @property: padding
+  @desc: adds padding of 5px 
+*/
+
+.padding-5{
+  padding: 5px;
+}
+
+/* 
+  @modifier: padding-10, gutter-10
+  @property: padding
+  @desc: adds padding of 10px 
+*/
+
+.padding-10{
+  padding: 10px;
+}
+
+/* 
+  @modifier: padding-15, gutter-15
+  @property: padding
+  @desc: adds padding of 15px 
+*/
+
+.padding-15{
+  padding: 15px;
+}
+
+/* 
+  @modifier: padding-20, gutter-20
+  @property: padding
+  @desc: adds padding of 20px 
+*/
+
+.padding-20{
+  padding: 20px;
+}
+
+/* 
+  @modifier: padding-25, gutter-25
+  @property: padding
+  @desc: adds padding of 25px 
+*/
+
+.padding-25{
+  padding: 25px;
+}
+
+/*
+  @modifier: padding-30, gutter-30
+  @property: padding
+  @desc: adds padding of 30px 
+*/
+
+.padding-30{
+  padding: 30px;
+}
+
+/*
+  @modifier: padding-35, gutter-35
+  @property: padding
+  @desc: adds padding of 35px 
+*/
+
+.padding-35{
+  padding: 35px;
+}
+
+/*
+  @modifier: padding-40, gutter-40
+  @property: padding
+  @desc: adds padding of 40px 
+*/
+
+.padding-40{
+  padding: 40px;
+}
+
+/*
+  @modifier: padding-h-5, gutter-h-5
+  @property: padding
+  @desc: adds horizontal padding of 5px 
+*/
+
+.padding-h-5{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*
+  @modifier: padding-h-10, gutter-h-10
+  @property: padding
+  @desc: adds horizontal padding of 10px 
+*/
+
+.padding-h-10{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*
+  @modifier: padding-h-15, gutter-h-15
+  @property: padding
+  @desc: adds horizontal padding of 15px 
+*/
+
+.padding-h-15{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*
+  @modifier: padding-h-20, gutter-h-20
+  @property: padding
+  @desc: adds horizontal padding of 20px 
+*/
+
+.padding-h-20{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*
+  @modifier: padding-h-25, gutter-h-25
+  @property: padding
+  @desc: adds horizontal padding of 25px 
+*/
+
+.padding-h-25{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/*
+  @modifier: padding-h-30, gutter-h-30
+  @property: padding
+  @desc: adds horizontal padding of 30px 
+*/
+
+.padding-h-30{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*
+  @modifier: padding-h-35, gutter-h-35
+  @property: padding
+  @desc: adds horizontal padding of 35px 
+*/
+
+.padding-h-35{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+/*
+  @modifier: padding-h-40, gutter-h-40
+  @property: padding
+  @desc: adds horizontal padding of 40px 
+*/
+
+.padding-h-40{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/*
+  @modifier: padding-v-5, gutter-v-5
+  @property: padding
+  @desc: adds vertical padding of 5px 
+*/
+
+.padding-v-5{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*
+  @modifier: padding-v-10, gutter-v-10
+  @property: padding
+  @desc: adds vertical padding of 10px 
+*/
+
+.padding-v-10{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*
+  @modifier: padding-v-15, gutter-v-15
+  @property: padding
+  @desc: adds vertical padding of 15px 
+*/
+
+.padding-v-15{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*
+  @modifier: padding-v-20, gutter-v-20
+  @property: padding
+  @desc: adds vertical padding of 20px 
+*/
+
+.padding-v-20{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*
+  @modifier: padding-v-25, gutter-v-25
+  @property: padding
+  @desc: adds vertical padding of 25px 
+*/
+
+.padding-v-25{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/*
+  @modifier: padding-v-30, gutter-v-30
+  @property: padding
+  @desc: adds vertical padding of 30px 
+*/
+
+.padding-v-30{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*
+  @modifier: padding-v-35, gutter-v-35
+  @property: padding
+  @desc: adds vertical padding of 35px 
+*/
+
+.padding-v-35{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/*
+  @modifier: padding-v-40, gutter-v-40
+  @property: padding
+  @desc: adds vertical padding of 40px 
+*/
+
+.padding-v-40{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/*
+  @modifier: padding-top-5, gutter-top-5
+  @property: padding
+  @desc: adds top padding of 5px 
+*/
+
+.padding-top-5{
+  padding-top: 5px;
+}
+
+/*
+  @modifier: padding-top-10, gutter-top-10
+  @property: padding
+  @desc: adds top padding of 10px 
+*/
+
+.padding-top-10{
+  padding-top: 10px;
+}
+
+/*
+  @modifier: padding-top-15, gutter-top-15
+  @property: padding
+  @desc: adds top padding of 15px 
+*/
+
+.padding-top-15{
+  padding-top: 15px;
+}
+
+/*
+  @modifier: padding-top-20, gutter-top-20
+  @property: padding
+  @desc: adds top padding of 20px 
+*/
+
+.padding-top-20{
+  padding-top: 20px;
+}
+
+/*
+  @modifier: padding-top-25, gutter-top-25
+  @property: padding
+  @desc: adds top padding of 25px 
+*/
+
+.padding-top-25{
+  padding-top: 25px;
+}
+
+/*
+  @modifier: padding-top-30, gutter-top-30
+  @property: padding
+  @desc: adds top padding of 30px 
+*/
+
+.padding-top-30{
+  padding-top: 30px;
+}
+
+/*
+  @modifier: padding-top-35, gutter-top-35
+  @property: padding
+  @desc: adds top padding of 35px 
+*/
+
+.padding-top-35{
+  padding-top: 35px;
+}
+
+/*
+  @modifier: padding-top-40, gutter-top-40
+  @property: padding
+  @desc: adds top padding of 40px 
+*/
+
+.padding-top-40{
+  padding-top: 40px;
+}
+
+/*
+  @modifier: padding-right-5, gutter-right-5
+  @property: padding
+  @desc: adds right padding of 5px 
+*/
+
+.padding-right-5{
+  padding-right: 5px;
+}
+
+/*
+  @modifier: padding-right-10, gutter-right-10
+  @property: padding
+  @desc: adds right padding of 10px 
+*/
+
+.padding-right-10{
+  padding-right: 10px;
+}
+
+/*
+  @modifier: padding-right-15, gutter-right-15
+  @property: padding
+  @desc: adds right padding of 15px 
+*/
+
+.padding-right-15{
+  padding-right: 15px;
+}
+
+/*
+  @modifier: padding-right-20, gutter-right-20
+  @property: padding
+  @desc: adds right padding of 20px 
+*/
+
+.padding-right-20{
+  padding-right: 20px;
+}
+
+/*
+  @modifier: padding-right-25, gutter-right-25
+  @property: padding
+  @desc: adds right padding of 25px 
+*/
+
+.padding-right-25{
+  padding-right: 25px;
+}
+
+/*
+  @modifier: padding-right-30, gutter-right-30
+  @property: padding
+  @desc: adds right padding of 30px 
+*/
+
+.padding-right-30{
+  padding-right: 30px;
+}
+
+/*
+  @modifier: padding-right-35, gutter-right-35
+  @property: padding
+  @desc: adds right padding of 35px 
+*/
+
+.padding-right-35{
+  padding-right: 35px;
+}
+
+/*
+  @modifier: padding-right-40, gutter-right-40
+  @property: padding
+  @desc: adds right padding of 40px 
+*/
+
+.padding-right-40{
+  padding-right: 40px;
+}
+
+/*
+  @modifier: padding-bottom-5, gutter-bottom-5
+  @property: padding
+  @desc: adds bottom padding of 5px 
+*/
+
+.padding-bottom-5{
+  padding-bottom: 5px;
+}
+
+/*
+  @modifier: padding-bottom-10, gutter-bottom-10
+  @property: padding
+  @desc: adds bottom padding of 10px 
+*/
+
+.padding-bottom-10{
+  padding-bottom: 10px;
+}
+
+/*
+  @modifier: padding-bottom-15, gutter-bottom-15
+  @property: padding
+  @desc: adds bottom padding of 15px 
+*/
+
+.padding-bottom-15{
+  padding-bottom: 15px;
+}
+
+/*
+  @modifier: padding-bottom-20, gutter-bottom-20
+  @property: padding
+  @desc: adds bottom padding of 20px 
+*/
+
+.padding-bottom-20{
+  padding-bottom: 20px;
+}
+
+/*
+  @modifier: padding-bottom-25, gutter-bottom-25
+  @property: padding
+  @desc: adds bottom padding of 25px 
+*/
+
+.padding-bottom-25{
+  padding-bottom: 25px;
+}
+
+/*
+  @modifier: padding-bottom-30, gutter-bottom-30
+  @property: padding
+  @desc: adds bottom padding of 30px 
+*/
+
+.padding-bottom-30{
+  padding-bottom: 30px;
+}
+
+/*
+  @modifier: padding-bottom-35, gutter-bottom-35
+  @property: padding
+  @desc: adds bottom padding of 35px 
+*/
+
+.padding-bottom-35{
+  padding-bottom: 35px;
+}
+
+/*
+  @modifier: padding-bottom-40, gutter-bottom-40
+  @property: padding
+  @desc: adds bottom padding of 40px 
+*/
+
+.padding-bottom-40{
+  padding-bottom: 40px;
+}
+
+/*
+  @modifier: padding-left-5, gutter-left-5
+  @property: padding
+  @desc: adds left padding of 5px 
+*/
+
+.padding-left-5{
+  padding-left: 5px;
+}
+
+/*
+  @modifier: padding-left-10, gutter-left-10
+  @property: padding
+  @desc: adds left padding of 10px 
+*/
+
+.padding-left-10{
+  padding-left: 10px;
+}
+
+/*
+  @modifier: padding-left-15, gutter-left-15
+  @property: padding
+  @desc: adds left padding of 15px 
+*/
+
+.padding-left-15{
+  padding-left: 15px;
+}
+
+/*
+  @modifier: padding-left-20, gutter-left-20
+  @property: padding
+  @desc: adds left padding of 20px 
+*/
+
+.padding-left-20{
+  padding-left: 20px;
+}
+
+/*
+  @modifier: padding-left-25, gutter-left-25
+  @property: padding
+  @desc: adds left padding of 25px 
+*/
+
+.padding-left-25{
+  padding-left: 25px;
+}
+
+/*
+  @modifier: padding-left-30, gutter-left-30
+  @property: padding
+  @desc: adds left padding of 30px 
+*/
+
+
+.padding-left-30{
+  padding-left: 30px;
+}
+
+/*
+  @modifier: padding-left-35, gutter-left-35
+  @property: padding
+  @desc: adds left padding of 35px 
+*/
+
+.padding-left-35{
+  padding-left: 35px;
+}
+
+/*
+  @modifier: padding-left-40, gutter-left-40
+  @property: padding
+  @desc: adds left padding of 40px 
+*/
+
+.padding-left-40{
+  padding-left: 40px;
+}
+
+/*
+  --- REMOVE VALUES ---
+*/
+/* 
+  @modifier: -padding, -gutter
+  @property: padding
+  @desc: removes padding
+*/
+
+.-padding,
+.-gutter{
+  padding: 0 !important;
+}
+
+/* 
+  @modifier: -padding-h, -gutter-h
+  @property: padding
+  @desc: removes horizontal padding
+*/
+
+.-padding-h,
+.-gutter-h{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* 
+  @modifier: -padding-v, -gutter-v
+  @property: padding
+  @desc: removes vertical padding
+*/
+
+.-padding-v,
+.-gutter-v{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* 
+  @modifier: -padding-top, -gutter-top
+  @property: padding
+  @desc: removes top padding
+*/
+
+.-padding-top,
+.-gutter-top{
+  padding-top: 0 !important;
+}
+
+/* 
+  @modifier: -padding-right, -gutter-right
+  @property: padding
+  @desc: removes right padding
+*/
+
+.-padding-right,
+.-gutter-right{
+  padding-right: 0 !important;
+}
+
+/* 
+  @modifier: -padding-bottom, -gutter-bottom
+  @property: padding
+  @desc: removes bottom padding
+*/
+
+.-padding-bottom,
+.-gutter-bottom{
+  padding-bottom: 0 !important;
+}
+
+/* 
+  @modifier: -padding-left, -gutter-left
+  @property: padding
+  @desc: removes left padding
+*/
+
+.-padding-left,
+.-gutter-left{
+  padding-left: 0 !important;
+}

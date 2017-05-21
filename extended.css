@@ -1,0 +1,739 @@
+/*
+  @about Modulr.css
+  -----------------------------------------
+  @desc: Pure Css Padding Module
+  @author: Alan Museljic
+  @git: https://github.com/ModulrCSS/padding
+  @source: http://www.getmodulr.com/css/padding
+  ------------------------------------------------
+  @uses: modulr/padding/*
+  @docs: true 
+\-------------------------------------------------*/
+
+
+
+/* 
+  @property: padding
+  @desc: adds horizontal padding of 10px
+*/
+
+[mod-padding~="horizontal"],
+[mod-each-child~="padding-horizontal"] > [mod-child]{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* 
+  @modifier: padding-v
+  @property: padding
+  @desc: adds vertical padding of 10px
+*/
+
+[mod-padding~="vertical"],
+[mod-each-child~="padding-vertical"] > [mod-child]{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* 
+  @modifier: padding-top
+  @property: padding
+  @desc: adds top padding of 10px
+*/
+
+[mod-padding~="top"],
+[mod-each-child~="padding-top"] > [mod-child]{
+  padding-top: 10px;
+}
+
+/* 
+  @modifier: padding-right
+  @property: padding
+  @desc: adds right padding of 10px
+*/
+
+[mod-padding~="right"],
+[mod-each-child~="padding-right"] > [mod-child]{
+  padding-right: 10px;
+}
+
+/* 
+  @modifier: padding-bottom
+  @property: padding
+  @desc: adds bottom padding of 10px
+*/
+
+[mod-padding~="bottom"],
+[mod-each-child~="padding-bottom"] > [mod-child]{
+  padding-bottom: 10px;
+}
+
+/* 
+  @modifier: padding-left
+  @property: padding
+  @desc: adds left padding of 10px
+*/
+
+[mod-padding~="left"],
+[mod-each-child~="padding-left"] > [mod-child]{
+  padding-left: 10px;
+}
+
+
+/* 
+  ---- PADDING - GUTTER ----  
+*/
+
+/* 
+  @property: padding
+  @desc: adds padding of 5px 
+*/
+
+[mod-padding~="5p"],
+[mod-each-child~="padding-5p"] > [mod-child]{
+  padding: 5px;
+}
+
+/* 
+  @property: padding
+  @desc: adds padding of 10px 
+*/
+
+[mod-padding~="10p"],
+[mod-each-child~="padding-10p"] > [mod-child]{
+  padding: 10px;
+}
+
+/* 
+  @property: padding
+  @desc: adds padding of 15px 
+*/
+
+[mod-padding~="15p"],
+[mod-each-child~="padding-15p"] > [mod-child]{
+  padding: 15px;
+}
+
+/* 
+  @property: padding
+  @desc: adds padding of 20px 
+*/
+
+[mod-padding~="20p"],
+[mod-each-child~="padding-20p"] > [mod-child]{
+  padding: 20px;
+}
+
+/* 
+  @property: padding
+  @desc: adds padding of 25px 
+*/
+
+[mod-padding~="25p"],
+[mod-each-child~="padding-25p"] > [mod-child]{
+  padding: 25px;
+}
+
+/*
+  @property: padding
+  @desc: adds padding of 30px 
+*/
+
+[mod-padding~="30p"],
+[mod-each-child~="padding-30p"] > [mod-child]{
+  padding: 30px;
+}
+
+/*
+  @property: padding
+  @desc: adds padding of 35px 
+*/
+
+[mod-padding~="35p"],
+[mod-each-child~="padding-35p"] > [mod-child]{
+  padding: 35px;
+}
+
+/*
+  @property: padding
+  @desc: adds padding of 40px 
+*/
+
+[mod-padding~="40p"],
+[mod-each-child~="padding-40p"] > [mod-child]{
+  padding: 40px;
+}
+
+/*
+  @property: padding
+  @desc: adds horizontal padding of 5px 
+*/
+
+[mod-padding~="horizontal-5p"],
+[mod-each-child~="padding-horizontal-5p"] > [mod-child]{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*
+  @property: padding
+  @desc: adds horizontal padding of 10px 
+*/
+
+[mod-padding~="horizontal-10p"],
+[mod-each-child~="padding-horizontal-10p"] > [mod-child]{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*
+  @property: padding
+  @desc: adds horizontal padding of 15px 
+*/
+
+[mod-padding~="horizontal-15p"],
+[mod-each-child~="padding-horizontal-15p"] > [mod-child]{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*
+  @property: padding
+  @desc: adds horizontal padding of 20px 
+*/
+
+[mod-padding~="horizontal-20p"],
+[mod-each-child~="padding-horizontal-20p"] > [mod-child]{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*
+  @property: padding
+  @desc: adds horizontal padding of 25px 
+*/
+
+[mod-padding~="horizontal-25p"],
+[mod-each-child~="padding-horizontal-25p"] > [mod-child]{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/*
+  @property: padding
+  @desc: adds horizontal padding of 30px 
+*/
+
+[mod-padding~="horizontal-30p"],
+[mod-each-child~="padding-horizontal-30p"] > [mod-child]{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*
+  @property: padding
+  @desc: adds horizontal padding of 35px 
+*/
+
+[mod-padding~="horizontal-35p"],
+[mod-each-child~="padding-horizontal-35p"] > [mod-child]{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+/*
+  @property: padding
+  @desc: adds horizontal padding of 40px 
+*/
+
+[mod-padding~="horizontal-40p"],
+[mod-each-child~="padding-horizontal-40p"] > [mod-child]{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/*
+  @property: padding
+  @desc: adds vertical padding of 5px 
+*/
+
+[mod-padding~="vertical-5p"],
+[mod-each-child~="padding-vertical-5p"] > [mod-child]{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*
+  @property: padding
+  @desc: adds vertical padding of 10px 
+*/
+
+[mod-padding~="vertical-10p"],
+[mod-each-child~="padding-vertical-5p"] > [mod-child]{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*
+  @property: padding
+  @desc: adds vertical padding of 15px 
+*/
+
+[mod-padding~="vertical-15p"],
+[mod-each-child~="padding-vertical-15p"] > [mod-child]{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*
+  @property: padding
+  @desc: adds vertical padding of 20px 
+*/
+
+[mod-padding~="vertical-20p"],
+[mod-each-child~="padding-vertical-20p"] > [mod-child]{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*
+  @property: padding
+  @desc: adds vertical padding of 25px 
+*/
+
+[mod-padding~="vertical-25p"],
+[mod-each-child~="padding-vertical-25p"] > [mod-child]{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/*
+  @property: padding
+  @desc: adds vertical padding of 30px 
+*/
+
+[mod-padding~="vertical-30p"],
+[mod-each-child~="padding-vertical-30p"] > [mod-child]{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*
+  @property: padding
+  @desc: adds vertical padding of 35px 
+*/
+
+[mod-padding~="vertical-35p"],
+[mod-each-child~="padding-vertical-35p"] > [mod-child]{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/*
+  @property: padding
+  @desc: adds vertical padding of 40px 
+*/
+
+[mod-padding~="vertical-40p"],
+[mod-each-child~="padding-vertical-40p"] > [mod-child]{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/*
+  @modifier: padding-top-5, gutter-top-5
+  @property: padding
+  @desc: adds top padding of 5px 
+*/
+
+[mod-padding~="top-5p"],
+[mod-each-child~="padding-top-5p"] > [mod-child]{
+  padding-top: 5px;
+}
+
+/*
+  @property: padding
+  @desc: adds top padding of 10px 
+*/
+
+[mod-padding~="top-10p"],
+[mod-each-child~="padding-top-10p"] > [mod-child]{
+  padding-top: 10px;
+}
+
+/*
+  @property: padding
+  @desc: adds top padding of 15px 
+*/
+
+[mod-padding~="top-15p"],
+[mod-each-child~="padding-top-15p"] > [mod-child]{
+  padding-top: 15px;
+}
+
+/*
+  @property: padding
+  @desc: adds top padding of 20px 
+*/
+
+[mod-padding~="top-20p"],
+[mod-each-child~="padding-top-20p"] > [mod-child]{
+  padding-top: 20px;
+}
+
+/*
+  @property: padding
+  @desc: adds top padding of 25px 
+*/
+
+[mod-padding~="top-25p"],
+[mod-each-child~="padding-top-25p"] > [mod-child]{
+  padding-top: 25px;
+}
+
+/*
+  @property: padding
+  @desc: adds top padding of 30px 
+*/
+
+[mod-padding~="top-30p"],
+[mod-each-child~="padding-top-30p"] > [mod-child]{
+  padding-top: 30px;
+}
+
+/*
+  @property: padding
+  @desc: adds top padding of 35px 
+*/
+
+[mod-padding~="top-35p"],
+[mod-each-child~="padding-top-35p"] > [mod-child]{
+  padding-top: 35px;
+}
+
+/*
+  @property: padding
+  @desc: adds top padding of 40px 
+*/
+
+[mod-padding~="top-40p"],
+[mod-each-child~="padding-top-40p"] > [mod-child]{
+  padding-top: 40px;
+}
+
+/*
+  @property: padding
+  @desc: adds right padding of 5px 
+*/
+
+[mod-padding~="right-5p"],
+[mod-each-child~="padding-right-5p"] > [mod-child]{
+  padding-right: 5px;
+}
+
+/*
+  @property: padding
+  @desc: adds right padding of 10px 
+*/
+
+[mod-padding~="right-10p"],
+[mod-each-child~="padding-right-10p"] > [mod-child]{
+  padding-right: 10px;
+}
+
+/*
+  @property: padding
+  @desc: adds right padding of 15px 
+*/
+
+[mod-padding~="right-15p"],
+[mod-each-child~="padding-right-15p"] > [mod-child]{
+  padding-right: 15px;
+}
+
+/*
+  @property: padding
+  @desc: adds right padding of 20px 
+*/
+
+[mod-padding~="right-20p"],
+[mod-each-child~="padding-right-20p"] > [mod-child]{
+  padding-right: 20px;
+}
+
+/*
+  @property: padding
+  @desc: adds right padding of 25px 
+*/
+
+[mod-padding~="right-25p"],
+[mod-each-child~="padding-right-25p"] > [mod-child]{
+  padding-right: 25px;
+}
+
+/*
+  @property: padding
+  @desc: adds right padding of 30px 
+*/
+
+[mod-padding~="right-30p"],
+[mod-each-child~="padding-right-30p"] > [mod-child]{
+  padding-right: 30px;
+}
+
+/*
+  @property: padding
+  @desc: adds right padding of 35px 
+*/
+
+[mod-padding~="right-35p"],
+[mod-each-child~="padding-right-35p"] > [mod-child]{
+  padding-right: 35px;
+}
+
+/*
+  @property: padding
+  @desc: adds right padding of 40px 
+*/
+
+[mod-padding~="right-40p"],
+[mod-each-child~="padding-right-40p"] > [mod-child]{
+  padding-right: 40px;
+}
+
+/*
+  @property: padding
+  @desc: adds bottom padding of 5px 
+*/
+
+[mod-padding~="bottom-5p"],
+[mod-each-child~="padding-bottom-5p"] > [mod-child]{
+  padding-bottom: 5px;
+}
+
+/*
+  @property: padding
+  @desc: adds bottom padding of 10px 
+*/
+
+[mod-padding~="bottom-10p"],
+[mod-each-child~="padding-bottom-10p"] > [mod-child]{
+  padding-bottom: 10px;
+}
+
+/*
+  @property: padding
+  @desc: adds bottom padding of 15px 
+*/
+
+[mod-padding~="bottom-15p"],
+[mod-each-child~="padding-bottom-15p"] > [mod-child]{
+  padding-bottom: 15px;
+}
+
+/*
+  @property: padding
+  @desc: adds bottom padding of 20px 
+*/
+
+[mod-padding~="bottom-20p"],
+[mod-each-child~="padding-bottom-20p"] > [mod-child]{
+  padding-bottom: 20px;
+}
+
+/*
+  @property: padding
+  @desc: adds bottom padding of 25px 
+*/
+
+[mod-padding~="bottom-25p"],
+[mod-each-child~="padding-bottom-25p"] > [mod-child]{
+  padding-bottom: 25px;
+}
+
+/*
+  @property: padding
+  @desc: adds bottom padding of 30px 
+*/
+
+[mod-padding~="bottom-30p"],
+[mod-each-child~="padding-bottom-30p"] > [mod-child]{
+  padding-bottom: 30px;
+}
+
+/*
+  @property: padding
+  @desc: adds bottom padding of 35px 
+*/
+
+[mod-padding~="bottom-35p"],
+[mod-each-child~="padding-bottom-35p"] > [mod-child]{
+  padding-bottom: 35px;
+}
+
+/*
+  @property: padding
+  @desc: adds bottom padding of 40px 
+*/
+
+[mod-padding~="bottom-40p"],
+[mod-each-child~="padding-bottom-40p"] > [mod-child]{
+  padding-bottom: 40px;
+}
+
+/*
+  @property: padding
+  @desc: adds left padding of 5px 
+*/
+
+[mod-padding~="left-5p"],
+[mod-each-child~="padding-left-5p"] > [mod-child]{
+  padding-left: 5px;
+}
+
+/*
+  @property: padding
+  @desc: adds left padding of 10px 
+*/
+
+[mod-padding~="left-10p"],
+[mod-each-child~="padding-left-10p"] > [mod-child]{
+  padding-left: 10px;
+}
+
+/*
+  @property: padding
+  @desc: adds left padding of 15px 
+*/
+
+[mod-padding~="left-15p"],
+[mod-each-child~="padding-left-15p"] > [mod-child]{
+  padding-left: 15px;
+}
+
+/*
+  @property: padding
+  @desc: adds left padding of 20px 
+*/
+
+[mod-padding~="left-20p"],
+[mod-each-child~="padding-left-20p"] > [mod-child]{
+  padding-left: 20px;
+}
+
+/*
+  @property: padding
+  @desc: adds left padding of 25px 
+*/
+
+[mod-padding~="left-25p"],
+[mod-each-child~="padding-left-25p"] > [mod-child]{
+  padding-left: 25px;
+}
+
+/*
+  @property: padding
+  @desc: adds left padding of 30px 
+*/
+
+
+[mod-padding~="left-30p"],
+[mod-each-child~="padding-left-30p"] > [mod-child]{
+  padding-left: 30px;
+}
+
+/*
+  @property: padding
+  @desc: adds left padding of 35px 
+*/
+
+[mod-padding~="left-35p"],
+[mod-each-child~="padding-left-35p"] > [mod-child]{
+  padding-left: 35px;
+}
+
+/*
+  @property: padding
+  @desc: adds left padding of 40px 
+*/
+
+[mod-padding~="left-40p"],
+[mod-each-child~="padding-left-40p"] > [mod-child]{
+  padding-left: 40px;
+}
+
+/*
+  --- REMOVE VALUES ---
+*/
+
+/* 
+  @property: padding
+  @desc: removes padding
+*/
+
+[mod-padding~="remove-padding"],
+[mod-each-child~="remove-padding"] > [mod-child]{
+  padding: 0 !important;
+}
+
+/* 
+  @property: padding
+  @desc: removes horizontal padding
+*/
+
+[mod-padding~="remove-horizontal"],
+[mod-each-child~="remove-horizontal-padding"] > [mod-child]{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* 
+  @property: padding
+  @desc: removes vertical padding
+*/
+
+[mod-padding~="remove-vertical"],
+[mod-each-child~="remove-vertical-padding"] > [mod-child]{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* 
+  @property: padding
+  @desc: removes top padding
+*/
+
+[mod-padding~="remove-top"],
+[mod-each-child~="remove-top-padding"] > [mod-child]{
+  padding-top: 0 !important;
+}
+
+/* 
+  @property: padding
+  @desc: removes right padding
+*/
+
+[mod-padding~="remove-right"],
+[mod-each-child~="remove-right-padding"] > [mod-child]{
+  padding-right: 0 !important;
+}
+
+/* 
+  @property: padding
+  @desc: removes bottom padding
+*/
+
+[mod-padding~="remove-bottom"],
+[mod-each-child~="remove-bottom-padding"] > [mod-child]{
+  padding-bottom: 0 !important;
+}
+
+/* 
+  @property: padding
+  @desc: removes left padding
+*/
+
+[mod-padding~="remove-left"],
+[mod-each-child~="remove-left-padding"] > [mod-child]{
+  padding-left: 0 !important;
+}

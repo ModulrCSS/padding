@@ -1,0 +1,25 @@
+{
+  "name": "modulr-padding",
+  "homepage": "https://github.com/ModulrCSS/padding",
+  "authors": [
+    "uloga <wpnemesis@gmail.com>"
+  ],
+  "description": "Modulr.css Padding Module ( adds padding to elements )",
+  "main": "",
+  "keywords": [
+    "padding",
+    "css3",
+    "html5",
+    "modulr",
+    "framework",
+    "boostrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
